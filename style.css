@@ -87,5 +87,21 @@
   }
 }
 
+/* Keep mobile navigation hidden until opened */
+@media (max-width: 768px) {
+  #mobile-nav[hidden] {
+    display: none !important;
+  }
+
+  #mobile-nav:not([hidden]) {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none !important;
+  }
+}
+
+
 
 
