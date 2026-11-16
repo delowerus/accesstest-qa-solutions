@@ -63,9 +63,9 @@
     display: block;
   }
 
-  .mobile-nav {
-    display: none !important;
-  }
+  .mobile-nav[hidden] {
+  display: none !important;
+}
 
   .menu-toggle {
     display: none !important;
