@@ -50,3 +50,11 @@
   }
 }
 
+/* Hide the mobile menu when closed */
+@media (max-width: 768px) {
+  #mobile-nav[hidden] {
+    display: none !important;
+  }
+}
+
+
