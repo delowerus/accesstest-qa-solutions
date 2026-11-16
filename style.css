@@ -57,4 +57,35 @@
   }
 }
 
+/* Show desktop navigation on large screens */
+@media (min-width: 769px) {
+  .desktop-nav {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none !important;
+  }
+
+  .menu-toggle {
+    display: none !important;
+  }
+}
+
+/* Show hamburger navigation on mobile */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .mobile-nav[hidden] {
+    display: none !important;
+  }
+}
+
+
 
