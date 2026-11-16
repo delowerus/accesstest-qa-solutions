@@ -9,7 +9,44 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
-<header class="site-header"><div class="container header-inner"><a class="brand" href="#home" aria-label="AccessTest QA Solutions, home"><span class="brand-mark" aria-hidden="true">✓</span><span>AccessTest <strong>QA Solutions</strong></span></a><nav aria-label="Main navigation"><ul><li><a href="#home">Home</a></li><li><a href="#services">Services</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#about">About</a></li><li><a class="nav-contact" href="#contact">Contact</a></li></ul></nav></div></header>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="AccessTest QA Solutions, home">
+      <span class="brand-mark" aria-hidden="true">✓</span>
+      <span>AccessTest <strong>QA Solutions</strong></span>
+    </a>
+
+    <button
+      type="button"
+      id="menu-toggle"
+      class="menu-toggle"
+      aria-label="Open navigation menu"
+      aria-controls="mobile-nav"
+      aria-expanded="false">
+      <span aria-hidden="true">☰</span>
+    </button>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 <main id="main">
 <section class="hero" id="home" aria-labelledby="hero-heading"><div class="container hero-inner"><div><p class="eyebrow">ACCESSIBILITY & SOFTWARE QUALITY ASSURANCE</p><h1 id="hero-heading">Building a more <span>accessible</span> digital world.</h1><p class="hero-copy">Practical website accessibility assessments, Section 508 testing, and software QA services to help teams identify barriers and improve digital experiences.</p><div class="actions"><a class="button button-primary" href="https://forms.gle/dyXY3iG9JwCSF2kT9">Request an Audit</a><a class="button button-outline" href="#services">Explore Services</a></div></div><div class="hero-panel" aria-label="Our approach"><div class="panel-icon" aria-hidden="true">✓</div><h2>Accessibility is quality.</h2><p>Manual expertise, assistive technology testing, and clear, actionable findings.</p><div class="panel-tags"><span>WCAG</span><span>Section 508</span><span>QA</span></div></div></div></section>
 <section class="section" id="services" aria-labelledby="services-heading"><div class="container"><p class="eyebrow dark">WHAT WE DO</p><h2 id="services-heading">Our services</h2><p class="section-intro">Focused testing and actionable reports tailored to your website and workflows.</p><div class="cards"><article class="card"><div class="card-icon" aria-hidden="true">◉</div><h3>Website Accessibility Audits</h3><p>Manual and automated checks against applicable WCAG success criteria, with prioritized findings and remediation guidance.</p></article><article class="card"><div class="card-icon" aria-hidden="true">⌨</div><h3>Section 508 Testing</h3><p>Keyboard, focus, screen-reader, forms, and accessible-name testing informed by Section 508 Trusted Tester practices.</p></article><article class="card"><div class="card-icon" aria-hidden="true">▣</div><h3>Software QA Testing</h3><p>Functional, regression, end-to-end, and API testing to help improve application reliability.</p></article><article class="card"><div class="card-icon" aria-hidden="true">✓</div><h3>Remediation Retesting</h3><p>Clear defect reproduction steps and verification of fixes after development teams implement changes.</p></article></div></div></section>
