@@ -102,6 +102,14 @@
   }
 }
 
+/* Hide desktop navigation on mobile screens */
+@media (max-width: 768px) {
+  .site-header .desktop-nav {
+    display: none !important;
+  }
+}
+
+
 
 
 
